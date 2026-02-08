@@ -374,7 +374,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && !isset($_POST['login_key'])) {
                 }
 
                 if(data.status === "LIVE") { 
-                    setTimeout(() => { location.reload(); }, 99999999999999999); 
+                    setTimeout(() => { location.reload(); }, 999999999); 
                 }
                 
                 lines.shift();
