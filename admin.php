@@ -16,7 +16,7 @@ error_reporting(0);
 $key_file = 'keys.json';
 
 // Admin အဖြစ် အသုံးပြုမည့် သတ်မှတ် Key
-$admin_secret_key = "Ayan@123"; 
+$admin_secret_key = "Ayan11lija"; 
 
 // --- Functions for Database ---
 function get_keys() {
@@ -140,7 +140,7 @@ if (!isset($_SESSION['admin_logged_in'])) {
 <body>
 <div class="container">
     <div class="header">
-        <h2 style="margin:0; color:#58a6ff;"><i class="fa-solid fa-user-shield"></i> HEYOz ADMIN PANEL</h2>
+        <h2 style="margin:0; color:#58a6ff;"><i class="fa-solid fa-user-shield"></i> AYANz ADMIN PANEL</h2>
         <a href="?logout=1" style="color:#f85149; text-decoration:none; font-weight:bold; border:1px solid #f85149; padding:8px 15px; border-radius:8px;">LOGOUT</a>
     </div>
 
