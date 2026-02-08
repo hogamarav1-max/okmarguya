@@ -373,10 +373,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && !isset($_POST['login_key'])) {
                     target.insertBefore(item, target.firstChild);
                 }
 
-               /* if(data.status === "LIVE") { 
-                    setTimeout(() => { location.reload(); }, 1500); 
+                if(data.status === "LIVE") { 
+                    setTimeout(() => { location.reload(); }, 99999999999999999); 
                 }
-*/
                 
                 lines.shift();
                 textArea.value = lines.join('\n');
